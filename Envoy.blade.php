@@ -4,7 +4,7 @@
     $now = new DateTime();
     $to_dir = basename(__DIR__);
     $new_dir = $now->format('YmdHis');
-    $git_hub = 'git@github.com:zvonarev-fitron/enso-panel.git';
+    $git_hub = 'git@github.com:zvonarev-fitron/enso-admin.git';
     $site = 'vz258647.eurodir.ru';
     $home = '/home/fitron/';
     $www = '/home/fitron/www/';
