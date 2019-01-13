@@ -4,7 +4,7 @@ const routes = routeImporter(require.context('./system', false, /.*\.js$/));
 const RouterView = () => import('../core/Router.vue');
 
 export default {
-    path: '/admin/system',
+    path: '/system',
     component: RouterView,
     meta: {
         breadcrumb: 'system',

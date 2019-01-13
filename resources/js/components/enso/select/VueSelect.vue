@@ -487,9 +487,7 @@ export default {
 
                 .select-value {
                     max-width: calc(100% - 2.5em);
-                    overflow-x: hidden;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
+                    white-space: normal;
                     text-align: left;
 
                     .field.is-grouped.is-grouped-multiline {

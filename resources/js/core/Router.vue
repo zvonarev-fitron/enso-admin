@@ -16,10 +16,6 @@ export default {
 
     computed: {
         key() {
-
-            // console.log(this.$route.params);
-            // console.log(JSON.stringify(this.$route.params));
-
             return JSON.stringify(this.$route.params);
         },
     },
